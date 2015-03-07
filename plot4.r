@@ -29,6 +29,6 @@ with(data, {
           ylab = "Global_rective_power", xlab = "datetime")
 })
 
-## Generating Plot 4 (PNG)	   
+## Generating Plot 4 (PNG 480x480)	   
 dev.copy(png, file = "plot4.png", width = 480, height = 480)
 dev.off()
