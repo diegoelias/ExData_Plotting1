@@ -15,5 +15,7 @@ data$Datetime <- as.POSIXct(datetime)
 ## Generating Plot 2
 plot(data$Global_active_power ~ data$Datetime, type = "l",
      ylab = "Global Active Power (kilowatts)", xlab = "")
+     
+## Generating Plot 2 (PNG 480x480)
 dev.copy(png, file = "plot2.png", width = 480, height = 480)
 dev.off()
