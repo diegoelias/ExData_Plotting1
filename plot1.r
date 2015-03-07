@@ -4,6 +4,6 @@ out <- read.table(text = grep("^[1,2]/2/2007", readLines(hpc), value = TRUE), co
 # Generating Plot 1 ("plot1.png)
 hist(out$Glooutl_active_power, col = "red", main = paste("Glooutl Active Power"), xlab = "Glooutl Active Power (kilowatts)")
 
-## Generating Plot 1 (PNG)
+## Generating Plot 1 (PNG 480x480)
 dev.copy(png, file = "plot1.png", width = 480, height = 480)
 dev.off()
